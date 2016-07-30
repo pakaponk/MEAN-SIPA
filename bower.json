@@ -1,0 +1,16 @@
+{
+  "name": "Sample",
+  "description": "My MEAN Sample Project",
+  "authors": [
+    "Pakapon Kaewmark <sleep191@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

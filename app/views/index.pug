@@ -1,0 +1,17 @@
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/css/main.css')
+	body
+		if username
+			h2 Hello #{username}
+			div
+				form(name='logout', method='post', action='/logout')
+					input(type='submit', value='Log out')
+		else
+			div
+				a(href='/signup') Signup
+			div
+				a(href='/login') Login
+
+		script(type='text/javascript', src='/lib/angular/angular.min.js')
